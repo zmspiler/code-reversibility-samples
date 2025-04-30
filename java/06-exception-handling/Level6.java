@@ -3,7 +3,7 @@ public class Level6 {
         try {
             int x = Integer.parseInt("NotANumber");
         } catch (NumberFormatException ex) {
-            System.out.println("Format error: " + ex.getMessage());
+            System.out.printf("Format error: %s\n", ex.getMessage());
         } finally {
             System.out.println("Parsing attempt finished.");
         }

@@ -1,7 +1,7 @@
 public class Level3 {
     public static void main(String[] args) {
         for (int i = 0; i < 5; i++) {
-            System.out.println("Count: " + i);
+            System.out.printf("Count: %d\n", i);
 
             if (i > 3) {
                 System.out.println("More than 3");

@@ -3,7 +3,7 @@ public class Level2 {
         greetUser("Alice");
     }
 
-    static void greetUser(String name) {
-        System.out.println("Hello, " + name + "!");
+    static void greetUser(final String name) {
+        System.out.printf("Hello, %s!\n", name);
     }
 }
