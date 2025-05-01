@@ -34,6 +34,6 @@ class Car {
     }
 
     public String getDescriptor() {
-        return brand + " " + model + " - " + year + " (" + kilometers + "km)";
+        return String.format("%s %s %d (%dkm)", brand, model, year, kilometers);
     }
 }

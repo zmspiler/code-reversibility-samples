@@ -7,6 +7,6 @@ public class Level5 {
         for (int num : numbers) {
             sum += num;
         }
-        System.out.println("Sum is: " + sum);
+        System.out.printf("Sum is: %d\n", sum);
     }
 }
