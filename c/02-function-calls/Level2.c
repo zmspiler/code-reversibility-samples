@@ -6,5 +6,6 @@ void greetUser(char* name) {
 
 int main(int argc, char** args) {
     greetUser("Alice");
+    return 0;
 }
 
